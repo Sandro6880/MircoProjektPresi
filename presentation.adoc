@@ -58,3 +58,11 @@ All about efficiency
 * Layout is easily customizable and can be shown in many ways
 * Is reusing as much as it can, making the app more efficient
 * more efficient sibling of list- and gridview
+
+== Provider
+
+== Services
+
+== Database
+
+== Security in newer Versions
