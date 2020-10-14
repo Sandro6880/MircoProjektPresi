@@ -1,0 +1,60 @@
+= Android Revisited!
+
+
+[background-color="blue"]
+== What are Fragments?
+image::images/cake.jpg[background,size=cover]
+--
+A way to couple xml with java source code,
+so a view with UI logics
+(Does not have to have a view)
+--
+[%notitle]
+=== Slide Two
+image::https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2020/02/android-fragment-interaction-with-activity-in-devices-1.jpg[canvas,size=contain]
+
+[color: #ffffff]
+=== Fragment life-cycle
+image::images/fragCycle.png[background,size=cover]
+
+[background-color="blue"]
+=== Advantages of Fragments
+
+* Fragments are more reusable than views
+* Basically a small activity
+* Good to use when working on tablet compatible apps
+
+[background-color="blue"]
+=== Use cases for fragments
+
+* If you have a feature that can be reused (aka. Progress Bars)
+
+
+[background-color="blue"]
+=== Why fragments shouldn't be overused
+
+* Backstack of the fragments in navigation is complicated
+* Support library updates may cause new and unexpected ways for fragments to behave.
+* Testing an app with a lot of fragments is a pain for bug fixing.
+
+== (Recycler) View
+
+image::images/recycleView.jpg[background,size=cover]
+--
+All about efficiency
+--
+
+[background-color="blue"]
+=== How does it work?
+
+1. Works with the adapter interface
+2. Asks adapter how many items there are
+3. Asks adapter for a viewHolder and draws the item in the viewHolder
+
+[background-color="blue"]
+=== Advantages of Recycler view
+
+* Designed to be efficient
+* Layout is easily customizable and can be shown in many ways
+* Is reusing as much as it can, making the app more efficient
+* more efficient sibling of list- and gridview

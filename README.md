@@ -1,15 +1,7 @@
-# asciidoctor-docker-template
+# Micro-Project-Android
 
 ## Overview
 
-This is a template-project for
-
-* generating AsciiDoc-Files to html-files and
-* deploying the html-files to gh-pages,
-* where the gh-pages are located in an branch of the repo called `gh-pages`.
-
-AsciiDoctor - the software for converting the .adoc-files to .html-files - is executed in a Docker container.
-So you have nothing to install on your local machine, except Docker
 
 ## Option 1: Run script outside Docker - in your host OS
 
