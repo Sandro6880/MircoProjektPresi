@@ -1,4 +1,4 @@
-#!/bin/bash
+me#!/bin/bash
 # DO NOT USE
 # OR RATHER READ IT AND THEN USE
 # ONLY WORKS FROM THE PROJECT DIR

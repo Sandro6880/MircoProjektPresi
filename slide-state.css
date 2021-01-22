@@ -1,0 +1,11 @@
+.reveal section.title h2 {
+    color: red;
+}
+
+.reveal section.title h3 {
+    color: red;
+}
+
+.reveal section.title small {
+    color: red;
+}
